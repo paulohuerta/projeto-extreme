@@ -3,7 +3,7 @@
     $dbHost = 'Localhost';
     $dbUsername = 'root'
     $dbPassword = '';
-    $dbName = 'formulario-cadastro';
+    $dbName = 'extremeinfoservice';
 
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName)
 
