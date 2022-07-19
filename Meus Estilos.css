@@ -30,7 +30,7 @@ nav{
     background-color: rgb(102, 102, 102);
     padding: 3px;
     BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
-    font-size: 2.0vw;
+    font-size: 20px;
 }
 nav > a{
     color: white;
@@ -74,7 +74,75 @@ h1{
     background-color: #a52a2a;
     BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
 }
+.box{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    background-color: rgb(153, 8, 8);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+fieldset{
+    border: 3px solid white;
+}
+legend{
+    border: 1px solid white;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    color: #9e0404;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
 
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{ /*comando para fazer a movimentação da descrição dos campos*/
+    top: -20px;
+    font-size: 14px;
+    color:rgb(217, 223, 222);
+    font-style: var(--cor0)
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+}
+#sexo{
+    color: white;
+}
+#ienviar{
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#ienviar:hover{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+}
 h2{
     color: #a52a2a;
 }
