@@ -1,16 +1,16 @@
 <?php
 
-    $dbHost = 'Localhost';
-    $dbUsername = 'root'
-    $dbPassword = '';
-    $dbName = 'extremeinfoservice';
+    $servidor = 'Localhost';
+    $usuario = 'root';
+    $senha = '';
+    $dbname = 'extremeinfoservice';
 
-    $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName)
+    $conexao = mysqli_connect($servidor,$usuario,$senha,$dbname);
 
-    if($conexao -> connect_erro){
-        echo "Erro";
+    if(!$conexao){
+        die ("Houve erro: ".mysqli_connect_error());
     }
     else{
-        echo "Conexão atualizada com sucesso"
+        echo "Conexão atualizada com sucesso";
     }
 ?>
