@@ -30,7 +30,7 @@ nav{
     background-color: rgb(102, 102, 102);
     padding: 3px;
     BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
-    font-size: 20px;
+    font-size: 15px;
 }
 nav > a{
     color: white;
@@ -60,7 +60,7 @@ main p{
     margin: 15px;
     text-align: justify;
     text-indent: 30px; /*margem de cada paragrafo*/
-    font-size: 1em;
+    font-size: 15px;
     line-height: 2em; /*espaçamento entre linhas*/
 }
 .manutencao{
@@ -69,6 +69,8 @@ main p{
     text-align: center;
 }
 h1{
+    font-size: 24px;
+    font-style: italic;
     color: white;
     text-align: center;
     background-color: #a52a2a;
@@ -88,11 +90,12 @@ fieldset{
 }
 legend{
     border: 1px solid white;
-    padding: 10px;
+    padding: px;
     margin: auto;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     color: #9e0404;
+    margin-bottom: 15px;
 }
 .inputBox{
     position: relative;
