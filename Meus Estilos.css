@@ -11,12 +11,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
-    background-image: linear-gradient(to right, #F2F2F2, #F5C6C1 );
+    background-image: linear-gradient(to right, rgb(214, 95, 95), #ff0606 );
 }
 
 header{
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 30%;
+    max-width: 100%;
     background-color: white;
     padding: 0px;
     margin: auto;
@@ -44,8 +44,8 @@ nav > a:hover{
     color: #9e0404;
 }
 main{
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 30%;
+    max-width: 100%;
     margin: auto;
     background-color: white;
     padding: 0px;
@@ -145,9 +145,14 @@ legend{
 }
 h2{
     color: #a52a2a;
+    margin: 5px;
 }
 h3{
     color: #a52a2a;
+    margin: 5px;
+}
+h4{
+    margin: 5px;
 }
 p{
     color: var(--p);
@@ -155,4 +160,37 @@ p{
     font-weight: bold; 
     font-size: 16px;
     line-height: 1.5em; 
+}
+footer > main{
+  text-align: center;
+}
+.produto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    box-shadow: 2px 2px 10px red;
+    max-width: 100%;
+    min-width: 30%;
+    margin-bottom: 10px;
+    background-color: white
+}
+.fotoCat{
+    max-width: 100%;
+    min-width: 30%;
+}
+.col1{
+    margin-top: 50px;
+    margin-left: 20px;
+    max-width: 40%;
+    min-width: 30%;
+    display: inline-block;
+}
+.col2{
+    margin: 20px;
+    max-width: 40%;
+    min-width: 30%;
+    display: inline-block;
+}
+.container{
+    text-align: center;
+    background-color: rgba(240, 175, 175, 0.514);
 }

@@ -9,6 +9,61 @@
 </head>
 <body>
     <h1>Inscrição</h1>
-    <h2>A pagina está em manutenção, logo poderá usar nossos serviços, clique <a href="parceiro.html" rel="prev">aqui para voltar</a> ou <a href="index.html">HOME</a></h2>
+    <a href="index.html"><br>Pressione aqui para voltar para o inicio</a>
+</main>
+<section>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de Inscrição</b></legend>
+                <div class="inputBox">
+                    <input type="text" name = "nome" id="inome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div><br><br>
+                <div class="inputBox">
+                    <input type="text" name = "email" id="iemail" class="inputUser" required>
+                    <label for="email"class="labelInput">E-mail</label>
+                </div><br><br>
+                <div class="inputBox">
+                    <input type="tel" name = "telefone" id="itelefone" class="inputUser" required>
+                    <label for="telefone"class="labelInput">Telefone</label>
+                </div><br>
+                <p id="sexo">Sexo:</p>
+                <input type="radio" id="ifeminino" nome="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="imasculino" value="masculino" required>
+                <label for="masculino">Masculino</label><br><br>
+
+                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name = "data_nascimento" id="data_nascimento" required>
+                <br><br><br>
+
+                <div class="inputBox">
+                    <input type="text" name = "cidade" id="icidade" class="inputUser" required>
+                    <label for="telefone"class="labelInput">Cidade</label>
+                </div><br><br>
+                <div class="inputBox">
+                    <input type="text" name = "estado" id="iestado" class="inputUser" required>
+                    <label for="telefone"class="labelInput">Estado</label>
+                </div><br><br>
+                <div class="inputBox">
+                    <input type="text" name = "endereco" id="iendereco" class="inputUser" required>
+                    <label for="telefone"class="labelInput">Endereço</label>
+                </div><br><br>
+                <div class="inputBox">
+                    <input type="password" name = "senha" id="isenha" class="inputUser" required>
+                    <label for="senha">Senha</label>
+                </div><br><br>
+                <div class="inputBox">
+                    <input type="password" name = "confsenha" id="iconfsenha" class="inputUser" required>
+                    <label for="confsenha">Confirmar Senha</label>
+                </div><br><br>
+
+                <input type="button" value="Enviar" id="ienviar">
+            </fieldset>
+        </form>
+    </div>
+</section>
+</main>
 </body>
 </html>
