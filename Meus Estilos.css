@@ -1,17 +1,50 @@
 @charset "UTF-8";
  
+
 :root{
     --cor0: #F2F2F2;
     --cor1: #d39090;
     --cor2: #a14242;
     --cor3: #a32828;
-    --cor3: #9e0404;
-    --p: #534d4d; 
+    --cor4: #9e0404;
+    --cor5: rgb(226, 6, 6);
+    --cor6: #534d4d; 
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
     background-image: linear-gradient(to right, rgb(214, 95, 95), #ff0606 );
+}
+h1{
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    background-color: #a52a2a;
+    BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
+}
+h2{
+    color: #a52a2a;
+    margin: 5px;
+}
+h3{
+    color: #a52a2a;
+    margin: 5px;
+}
+h4{
+    margin: 15px;
+    text-align: justify;
+    text-indent: 30px; /*margem de cada paragrafo*/
+    
+    line-height: 2em; /*espaçamento entre linhas*/
+}
+
+li{
+    text-align: justify;
+    padding: 0px 20px 10px 0px;
+}
+p{
+ 
 }
 
 header{
@@ -26,35 +59,38 @@ header{
 header h2{
     background-image: linear-gradient(to right, var(--cor1), transparent);
 }
+section{
+    padding-bottom: 1px;
+}
 nav{
     background-color: rgb(102, 102, 102);
     padding: 3px;
     BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
-    font-size: 15px;
-   
+    font-size: 18px;
 }
 nav > a{
     color: white;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    transition-duration: 0.5s;
+    transition-duration: 0.5s;    
 }
 nav > a:hover{
     background-color: rgb(177, 175, 175);
     color: #9e0404;
 }
-main{
-    min-width: 30%;
-    max-width: 100%;
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     background-color: white;
-    padding: 0px;
+    padding-bottom: 10px;
     BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 
 }
-main h2{
+main h2 {
     background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 main p{
@@ -64,28 +100,7 @@ main p{
     font-size: 15px;
     line-height: 2em; /*espaçamento entre linhas*/
 }
-.manutencao{
-    background-color: #743030;
-    color: rgb(145, 133, 133);
-    text-align: center;
-}
-h1{
-    font-size: 24px;
-    font-style: italic;
-    color: white;
-    text-align: center;
-    background-color: #a52a2a;
-    BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
-}
-.box{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 10%);
-    background-color: rgb(153, 8, 8);
-    padding: 15px;
-    border-radius: 15px;
-    color: white;
-}
+
 fieldset{
     border: 3px solid white;
 }
@@ -98,8 +113,59 @@ legend{
     color: #9e0404;
     margin-bottom: 15px;
 }
+
+
+#imagemExtreme{
+    display: block;
+    margin: auto;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+}
+#submit{
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+}
+
+#meuip{ /*No momento não está funcionando*/
+    
+}
+
+.imagManutencao{
+    display: block;
+    margin: auto;
+}
+
+.manutencao{
+    background-color: #743030;
+    color: rgb(145, 133, 133);
+    text-align: center;
+}
+.box{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    background-color: rgb(153, 8, 8);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    width: 70%;   
+}
 .inputBox{
     position: relative;
+    font-size: 14px;
 }
 .inputUser{
     background: none;
@@ -107,11 +173,16 @@ legend{
     border-bottom: 1px solid white;
     outline: none;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     width: 100%;
     letter-spacing: 2px;
 }
-
+.topico{
+    color: white;
+    font-style: italic;
+    font-size: 14;
+    
+}
 .labelInput{
     position: absolute;
     top: 0px;
@@ -124,49 +195,6 @@ legend{
     font-size: 14px;
     color:rgb(217, 223, 222);
     font-style: var(--cor0)
-}
-#data_nascimento{
-    border: none;
-    padding: 8px;
-    border-radius: 10px;
-    outline: none;
-}
-#sexo{
-    color: white;
-}
-#ienviar{
-    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
-    width: 100%;
-    border: none;
-    padding: 15px;
-    color: white;
-    font-size: 25px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-#ienviar:hover{
-    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
-}
-h2{
-    color: #a52a2a;
-    margin: 5px;
-}
-h3{
-    color: #a52a2a;
-    margin: 5px;
-}
-h4{
-    margin: 5px;
-}
-p{
-    color: var(--p);
-    text-align: justify;  
-    font-weight: bold; 
-    font-size: 16px;
-    line-height: 1.5em; 
-}
-footer > main{
-  text-align: center;
 }
 .produto{
     font-family: Arial, Helvetica, sans-serif;
@@ -197,4 +225,19 @@ footer > main{
 .container{
     text-align: center;
     background-color: rgba(240, 175, 175, 0.514);
+}
+.servico{
+    font-size: 13px;
+}
+.imagemCatalogo {
+    display: block;
+    margin: auto;
+}
+.descricao {
+    color: var(--cor5);
+    font-weight:bold;
+}
+footer{
+    text-align: center;
+    margin-top: 5px;
 }

@@ -1,0 +1,7 @@
+banco de dados: bancoextreme
+Nome: paulo	
+Senha: P@ulo1234567
+
+nomeid: id19299912_bancoextreme
+usuário: id19299912_paulo
+localhost: localhost

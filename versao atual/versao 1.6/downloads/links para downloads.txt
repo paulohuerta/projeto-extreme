@@ -1,0 +1,2 @@
+https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe
+https://www.dropbox.com/download?os=win

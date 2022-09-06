@@ -1,0 +1,235 @@
+@charset "UTF-8";
+ 
+:root{
+    --cor0: #F2F2F2;
+    --cor1: #d39090;
+    --cor2: #a14242;
+    --cor3: #a32828;
+    --cor4: #9e0404;
+    --cor5: rgb(226, 6, 6);
+    --cor6: #534d4d; 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    background-image: linear-gradient(to right, rgb(214, 95, 95), #ff0606 );
+}
+
+header{
+    min-width: 30%;
+    max-width: 100%;
+    background-color: white;
+    padding: 0px;
+    margin: auto;
+    BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
+    border-radius: 0px 10px;    
+}
+header h2{
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+section{
+    padding-bottom: 1px;
+}
+nav{
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.5s;    
+}
+nav > a:hover{
+    background-color: rgb(177, 175, 175);
+    color: #9e0404;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 10px;
+    BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+main h2 {
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+main p{
+    margin: 15px;
+    text-align: justify;
+    text-indent: 30px; /*margem de cada paragrafo*/
+    font-size: 15px;
+    line-height: 2em; /*espaçamento entre linhas*/
+}
+
+
+h1{
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    background-color: #a52a2a;
+    BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
+}
+h2{
+    color: #a52a2a;
+    margin: 5px;
+}
+h3{
+    color: #a52a2a;
+    margin: 5px;
+}
+h4{
+    margin: 15px;
+    text-align: justify;
+    text-indent: 30px; /*margem de cada paragrafo*/
+    
+    line-height: 2em; /*espaçamento entre linhas*/
+}
+p{
+ 
+}
+
+
+fieldset{
+    border: 3px solid white;
+}
+legend{
+    border: 1px solid white;
+    padding: px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    color: #9e0404;
+    margin-bottom: 15px;
+}
+
+#imagManutencao{
+    display: block;
+    margin: auto;
+}
+#imagemExtreme{
+    display: block;
+    margin: auto;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+}
+#submit{
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+}
+
+
+.manutencao{
+    background-color: #743030;
+    color: rgb(145, 133, 133);
+    text-align: center;
+}
+.box{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    background-color: rgb(153, 8, 8);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    width: 70%;   
+}
+.inputBox{
+    position: relative;
+    font-size: 14px;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.topico{
+    color: white;
+    font-style: italic;
+    font-size: 14;
+    
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{ /*comando para fazer a movimentação da descrição dos campos*/
+    top: -20px;
+    font-size: 14px;
+    color:rgb(217, 223, 222);
+    font-style: var(--cor0)
+}
+.produto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    box-shadow: 2px 2px 10px red;
+    max-width: 100%;
+    min-width: 30%;
+    margin-bottom: 10px;
+    background-color: white
+}
+.fotoCat{
+    max-width: 100%;
+    min-width: 30%;
+}
+.col1{
+    margin-top: 50px;
+    margin-left: 20px;
+    max-width: 40%;
+    min-width: 30%;
+    display: inline-block;
+}
+.col2{
+    margin: 20px;
+    max-width: 40%;
+    min-width: 30%;
+    display: inline-block;
+}
+.container{
+    text-align: center;
+    background-color: rgba(240, 175, 175, 0.514);
+}
+.servico{
+    font-size: 13px;
+}
+.imagemCatalogo {
+    display: block;
+    margin: auto;
+}
+.descricao {
+    color: var(--cor5);
+    font-weight:bold;
+}
+footer{
+    text-align: center;
+    margin-top: 5px;
+}
