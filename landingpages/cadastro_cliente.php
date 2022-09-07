@@ -55,9 +55,7 @@
                             <input type="tel" name = "telefone" id="telefone" class="inputUser" required>
                             <label for="telefone"class="labelInput">Telefone</label>
                         </div><br>
-                       
-                       
-                                                
+                                                                      
                         <label for="data_ag" class="topico"><b>Data de Agendamentoo:</b></label>
                         <input type="date" name = "data_ag" id="data_ag" required>
                         <br><br><br>
@@ -65,8 +63,7 @@
                         <label for="hora_ag" class="topico"><b>Hora de Agendamentoo:</b></label>
                         <input type="time" name = "hora_ag" id="hora_ag" required>
                         <br><br><br>
-
-                       
+                      
                         <div class="inputBox">
                             <input type="text" name = "cidade" id="cidade" class="inputUser" required>
                             <label for="telefone"class="labelInput">Cidade</label>
