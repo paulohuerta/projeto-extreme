@@ -1,5 +1,5 @@
 <?php
-echo "oii";
+echo "oi";
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +11,6 @@ echo "oii";
     <title>Document</title>
 </head>
 <body>
-    <h1>osgkjslç kfçlfsdj i</h1>
+    <h1> sadk fldkçsaj fa skfoi</h1>
 </body>
 </html>

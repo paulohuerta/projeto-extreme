@@ -1,7 +1,6 @@
 <?php
 
-
-    if(isset($_POST['submit'])){
+if(isset($_POST['submit'])){
      
         include_once('config.php');
          $nome = $_POST['nome'];
@@ -16,7 +15,7 @@
          $senha = $_POST['senha'];
          $confsenha = $_POST['confsenha'];
      
-         $result = mysqli_query($conexao, "INSERT INTO cadastrotecnico(nome,email,telefone,sexo,data_nasc,endereco,cidade,estado) VALUES ('$nome','$email','$telefone','$sexo','$data_nasc','$endereco','$cidade','$estado')");
+         $result = mysqli_query($conexao, "INSERT INTO cadastrocliente(nome,email,telefone,sexo,data_nasc,endereco,cidade,estado) VALUES ('$nome','$email','$telefone','$sexo','$data_nasc','$endereco','$cidade','$estado')");
     }
 ?>
 <!DOCTYPE html>
@@ -30,7 +29,7 @@
     <link rel="stylesheet" href="Meus Estilos.css">
 </head>
 <body>
-    <h1>Obrigado pela sua parceria, vamos fazer fortes alianças para conquistarmos mais clientes</h1>
+    
     <head>
         <script>
                 function confereEmail(){
@@ -58,15 +57,13 @@
                 alert("Senhas conferem!")
             }
         </script>
-         
-        <nav>
-            <a href="links.html">Links para downloads</a>
-            <a href="treinamento.html">Vídeos para treinamentos</a>
-        </nav>
+        
+
+        
 
         <section>
             <div class="box">
-                <form action="parceiro.php" method="POST">
+                <form action="cadastrocliente.php" method="POST">
                     <fieldset>
                         <legend><b>Formulário de Inscrição</b></legend>
                         <div class="inputBox">
