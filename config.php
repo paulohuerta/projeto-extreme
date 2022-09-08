@@ -3,7 +3,7 @@
     $dbHost = 'localhost';
     $dbUsername = 'root';
     $dbPassword = '';
-    $dbName = 'extremebanco';
+    $dbName = 'bancoextreme';
 
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
     
