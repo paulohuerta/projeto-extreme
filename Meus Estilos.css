@@ -103,10 +103,11 @@ main p{
 
 fieldset{
     border: 3px solid white;
+    border-radius: 10px;
 }
 legend{
     border: 1px solid white;
-    padding: px;
+    padding: 10px;
     margin: auto;
     background-color: white;
     border-radius: 10px;

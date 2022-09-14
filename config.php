@@ -1,15 +1,15 @@
 <?php
 
     $dbHost = 'localhost';
-    $dbUsername = 'root';
-    $dbPassword = '';
-    $dbName = 'bancoextreme';
+    $dbUsername = 'u864207706_paulo';
+    $dbPassword = 'P@ulo1234567';
+    $dbName = 'u864207706_BancoExtreme';
 
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
     
     $conexao->set_charset("utf8");
     
-    /*if($conexao -> connect_error){
+    if($conexao -> connect_error){
         echo "ERRO DE CONEXÃO";
     }else{
        echo "CONEXÃO BEM SUCEDIDA!";
@@ -20,7 +20,7 @@
      }
      else{
          echo "Conexão atualizada com sucesso";
-     }*/
+     }
      
      
 ?>

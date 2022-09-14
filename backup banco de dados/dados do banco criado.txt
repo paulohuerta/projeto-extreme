@@ -1,0 +1,19 @@
+banco de dados: bancoextreme
+Nome: paulo	
+Senha: P@ulo1234567
+
+nomeid: id19299912_bancoextreme
+usuário: id19299912_paulo
+localhost: localhost
+
+Novo Banco
+usuário: id19299912_paulohuerta
+senha: P@ulo1234567
+Nome do Banco de dados: id19299912_extremeinfoservice
+localhost: localhost
+
+conexão local
+host: localhost
+user: root
+password: ''
+banco de dados: bancoextreme
