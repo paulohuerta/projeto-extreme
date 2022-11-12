@@ -194,7 +194,7 @@ E
 </script>
     </head>
     
-    <a href="index.html"><br>Pressione aqui para voltar para o inicio</a>
+    <a href="index.html"><br>Pressione aqui para voltar ao inicio</a>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer>
       <main>
