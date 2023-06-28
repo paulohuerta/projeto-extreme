@@ -40,7 +40,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon " href="Icon/favicon.ico" type="image/x-icon">
     <title>Parceito</title>
-    <link rel="stylesheet" href="Meus Estilos.css">
+    <link rel="stylesheet" href="estilos/Meus Estilos.css">
 </head>
 <body>
     <h1>Obrigado pela sua parceria, vamos fazer fortes alianças para conquistarmos mais clientes</h1>
