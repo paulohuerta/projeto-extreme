@@ -13,7 +13,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
-    background: black url('../imagem/fundo2.jpg') center center no-repeat fixed;
+    background: black url('../imagem/fundo9.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 h1 {
@@ -118,7 +118,7 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.747);
     padding-bottom: 10px;
     BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -148,7 +148,6 @@ legend {
     color: #9e0404;
     margin-bottom: 15px;
 }
-
 
 #imagemExtreme {
     display: block;
